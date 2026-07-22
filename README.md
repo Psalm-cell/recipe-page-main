@@ -30,8 +30,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution URL here](https://github.com/Psalm-cell/recipe-page-main)
+- Live Site URL: [My live site URL here](https://psalm-cell.github.io/recipe-page-main/)
 
 ## My process
 
@@ -104,7 +104,7 @@ It reminded me of some CSS property I have forgotten and help analyszed my code 
 
 ## Author
 
-- Website - [Adesanya Samuel Semilogo](https://www.your-site.com)
+- Website - [Adesanya Samuel Semilogo](https://psalm-cell.github.io/recipe-page-main/)
 - Frontend Mentor - [@Psalm-cell](https://www.frontendmentor.io/profile/Psalm-cell)
 - Twitter - [@Adesany60857357](https://x.com/Adesany60857357)
 
