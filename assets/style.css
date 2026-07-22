@@ -1,5 +1,124 @@
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 @font-face {
-    font-family: "Outfit, Young-serif, sans-serif";
-    src: url(./assets/fonts/Outfit-VariableFont_wght.woff) format("woff"), url(./assets/fonts/Young-VariableFont_wght.woff) format("woff");
+    font-family: "Outfit";
+    src: url(./assets/fonts/Outfit-VariableFont_wght.woff) format("woff");
+}
+@font-face {
+    font-family: "Young Serif";
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
+}
+body {
+    font-family: "Young Serif", "Outfit", sans-serif;
+    background-color: hsl(30, 54%, 90%);
+}
+main {
+    background-color: hsl(0, 0%, 100%);
+    margin: 70px auto;
+    width: 40%;
+    padding: 25px;
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+p{
+    font-family: "Young Serif", sans-serif;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+}
+.prep {
+    background-color: hsla(332, 51%, 32%, 0.1);
+    padding: 7px 12px;
+    font-family: Outfit, sans-serif;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 25px;
+}
+.prep h2 {
+    color: hsl(332, 51%, 32%);
+}
+.prep ul {
+    padding-left: 15px;
+    color: hsl(30, 10%, 34%);
+}
+.prep ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: hsl(30, 10%, 34%);
+}
+td {
+    padding: 10px;
+}
+tr {
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+hr {
+    background-color: hsl(30, 10%, 34%);
+}
+ul {
+    color: hsl(30, 10%, 34%);
+}
+li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+span {
+    font-weight: 800;
+    /* color: hsl(24, 5%, 18%);
+    font-weight: 800; */
+}
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+ul {
+    color: hsl(30, 10%, 34%);
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+ol {
+    color: hsl(30, 10%, 34%);
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.spancol {
+    color: hsl(14, 45%, 36%);
 }
 
+/* Mobile Responsiveness */
+@media screen and (max-width: 480px) {
+    body {
+        margin: 0;
+    }
+    main {
+        box-sizing: border-box;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+        padding: 10px;
+    }
+    img {
+        margin-top: 0;
+        border-radius: 0;
+        margin-left: -10px;
+        margin-top: -10px;
+        /* margin-right: -10px; */
+        display: block;
+        width: 100vw;
+        padding: 0;
+    }
+    .prep {
+        padding: 20px;
+    }
+}
